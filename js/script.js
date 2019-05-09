@@ -5,7 +5,7 @@ const input = document.getElementById('input'), // input/output button
     operators = document.querySelectorAll('.operators div'), // operator buttons
     result = document.getElementById('result'), // equal button
     clear = document.getElementById('clear'), // clear button
-    ops = ['+', '-', '×', '÷'];
+    ops = ['+', '-', '*', '/'];
 
 let resultDisplayed = false; // flag to keep an eye on what output is displayed
 
